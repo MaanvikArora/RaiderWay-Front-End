@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Engineering",
+      "prerequisites": [
+        "ENG4U - English",
+        "MHF4U - Advanced Functions",
+        "MCV4U - Calculus and Vectors",
+        "SCH4U - Chemistry",
+        "SPH4U - Physics"
+      ]
+    },
+    {
+      "name": "Health Sciences",
+      "prerequisites": [
+        "ENG4U - English",
+        "SBI4U - Biology",
+        "SCH4U - Chemistry",
+        "MHF4U - Advanced Functions"
+      ]
+    },
+    {
+      "name": "Computer Science",
+      "prerequisites": [
+        "ENG4U - English",
+        "MHF4U - Advanced Functions",
+        "MCV4U - Calculus and Vectors",
+        "One of: SCH4U, SPH4U, or SBI4U"
+      ]
+    }
+  ]

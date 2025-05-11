@@ -5,13 +5,14 @@ import './App.css'
 import Home from './Components/Home'
 import Programs from './Components/Programs'
 import Interests from './Components/Interests'
+import Choice from './Components/Choice'
 
 function App() {
   const [activePage, setActivePage] = useState("home")
 
   return (
     <>
-          <div className="navbar bg-base-100 shadow-sm bg-white" data-theme="light">
+          <div className="navbar bg-base-100 shadow-sm bg-white">
             <div className="navbar-start">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -38,7 +39,7 @@ function App() {
           </div>
           
           {activePage === "home" && <Home onNav={() => setActivePage("choice")}/>};
-          {activePage === "choice" && <Choice onNav={setActivePage}/>}
+          {activePage === "choice" && <Choice onNav={setActivePage}></Choice>}
           {activePage === "interest" && <Interests onNav={setActivePage}></Interests>}
           {activePage === "program" && <Programs onNav={setActivePage}></Programs>}
     </>
