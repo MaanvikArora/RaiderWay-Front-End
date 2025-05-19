@@ -38,7 +38,7 @@ function App() {
             </div>
           </div>
           
-          {activePage === "home" && <Home onNav={() => setActivePage("choice")}/>};
+          {activePage === "home" && <Home onNav={() => setActivePage("choice")}/>}
           {activePage === "choice" && <Choice onNav={setActivePage}></Choice>}
           {activePage === "interest" && <Interests onNav={setActivePage}></Interests>}
           {activePage === "program" && <Programs onNav={setActivePage}></Programs>}

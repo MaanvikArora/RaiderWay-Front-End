@@ -8,7 +8,7 @@ function Interests(){
             <input type="checkbox" checked="checked" className="checkbox checkbox-md checkbox-success"></input>
             <p>Computer Science</p>
         </>
-    );
+    )
 }
 
 export default Interests;
